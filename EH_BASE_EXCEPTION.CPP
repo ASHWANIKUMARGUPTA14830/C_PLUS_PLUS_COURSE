@@ -1,0 +1,25 @@
+#include <iostream>
+#include <exception>
+
+class BaseException : public std::exception {
+public:
+    const char* what() const noexcept override {
+        return "Base exception occurred";
+    }
+};
+
+class SpecificException : public BaseException {
+public:
+    const char* what() const noexcept override {
+        return "Specific exception occurred";
+    }
+};
+
+int main() {
+    try {
+        throw SpecificException();
+    } catch (const BaseException& e) {
+        std::cerr << "Base exception caught: " << e.what() << std::endl;
+    }
+    return 0;
+}
