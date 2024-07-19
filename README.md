@@ -1,3 +1,4 @@
-# C_PLUS_PLUS_COURSE
-MY ALL C++ CODES WITH MAGIC ARE HERE 👍👍✌️✌️
-ENJOY BEST 300+ MAGIC CODES OF CPP/C++ HERE. 💖💖💖💖💖
+C++ Course
+All my C++ codes with DSA magic are here! 👍👍✌️✌️
+
+Enjoy the best 300+ magic codes of C++ and DSA. 💖💖💖💖💖
